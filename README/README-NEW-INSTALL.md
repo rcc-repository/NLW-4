@@ -112,7 +112,7 @@ Essa não é uma etapa obrigatória, mas se você quer usar a mesma fonte que o 
 
 2 - Para instalar a fonte:
 
-3 - O próximo passo é configurar a fonte para ser usada no Visual Studio Code. Após ter realizado as demais instalações, você poderá encontrar as configurações da fonte na seção <a href="#-configuracoes">Configurações</a>.
+3 - O próximo passo é configurar a fonte para ser usada no Visual Studio Code. Após ter realizado as demais instalações, você poderá encontrar as configurações da fonte na seção **Configurações ⬇️**.
 
 ### Usando as Font Ligatures
 
@@ -150,7 +150,7 @@ O **Material Icon Theme** é uma extensão que permite a customização dos íco
   <img alt="dev.finances" src="assets/materialicone.gif" width="100%">
 </p>
 
-## Configuracoes
+## Configurações
 
 Para finalizar, vamos adicionar algumas configurações no Visual Studio Code. Essas são utilizadas também pelo Diego. Para isso, basta pressionar `Ctrl + Shift + P` e escolher a opção `Open Settings (JSON)`. Na janela que foi aberta, adicione as configurações abaixo:
 
