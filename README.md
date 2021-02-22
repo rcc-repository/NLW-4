@@ -6,9 +6,6 @@ Sem mais delongas, vamos ao conteúdo principal desse guia: configuração do se
 
 https://www.notion.so/Configura-es-do-ambiente-React-76f2963a042f45b9b9b567a2795945b8
 
-<p align="center">
-  <img alt="dev.finances" src=".github/devfinances.png" width="100%">
-</p>
 
     -- Node + NPM;
     -- Yarn;
