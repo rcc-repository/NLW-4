@@ -120,7 +120,9 @@ Uma das características dessa fonte é que ela possui suporte às font ligature
 
 Aqui você verá como são formados os símbolos mais comuns usados durante a NLW para que não fique confuso quando ver algo diferente:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9d8c2af-1b3c-410b-b359-825ca02e1de2/fontLigatures.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9d8c2af-1b3c-410b-b359-825ca02e1de2/fontLigatures.png)
+<p align="center">
+  <img alt="dev.finances" src="assets/fontLigatures.png" width="100%">
+</p>
 
 ## Extensões
 
@@ -144,7 +146,9 @@ O **Material Icon Theme** é uma extensão que permite a customização dos íco
 
 **Como instalar? ⬇️**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f235cd7c-7840-4e60-8d4e-81643dfe0895/materialicone.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f235cd7c-7840-4e60-8d4e-81643dfe0895/materialicone.gif)
+<p align="center">
+  <img alt="dev.finances" src="assets/materialicone.gif" width="100%">
+</p>
 
 ## Configurações
 
