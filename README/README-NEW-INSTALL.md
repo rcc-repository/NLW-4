@@ -126,8 +126,6 @@ Aqui você verá como são formados os símbolos mais comuns usados durante a NL
 
 Extensões são formas de adicionar ainda mais funcionalidades ao seu Visual Studio Code.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b296ac36-a8dd-4117-a1e0-b7999e1990ea/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b296ac36-a8dd-4117-a1e0-b7999e1990ea/Untitled.png)
-
 Vamos citar 2 aqui para vocês:
 
 ### Omni
@@ -136,7 +134,9 @@ Nada melhor do que começar pelo tema do editor. Nós desenvolvedores trabalhamo
 
 **Como instalar? ⬇️**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76bd3f8f-1b2c-4ec4-bd6d-b92270cabd24/omni.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76bd3f8f-1b2c-4ec4-bd6d-b92270cabd24/omni.gif)
+<p align="center">
+  <img alt="dev.finances" src="assets/omni.gif" width="100%">
+</p>
 
 ### Material Icon Theme
 
