@@ -1,4 +1,5 @@
-# NLW-4 - Trilha React
+
+## 🚀 Tecnologias
 
 ## Preparando o ambiente
 
