@@ -7,12 +7,6 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
 
 https://www.notion.so/Configura-es-do-ambiente-React-76f2963a042f45b9b9b567a2795945b8
 
-<p align="left">
-  <a href="README/README-NEW-INSTALL.md">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="README/README-UPD-INSTALL.md">Atualização</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
-
-
     -- Node + NPM;
     -- Yarn;
     -- Visual Studio Code e configurações.
