@@ -3,6 +3,8 @@
 
 ## 💻 Preparando o Ambiente
 
+- [Chocolatey](https://chocolatey.org/)    
+    -- 
     -- Node + NPM;
     -- Yarn;
     -- Visual Studio Code e configurações.
