@@ -112,7 +112,7 @@ Essa não é uma etapa obrigatória, mas se você quer usar a mesma fonte que o 
 
 2 - Para instalar a fonte:
 
-3 - O próximo passo é configurar a fonte para ser usada no Visual Studio Code. Após ter realizado as demais instalações, você poderá encontrar as configurações da fonte na seção **[Configurações](https://www.notion.so/Instala-o-das-ferramentas-1c09af201b4b49c5bf1678842a96d9ab)**.
+3 - O próximo passo é configurar a fonte para ser usada no Visual Studio Code. Após ter realizado as demais instalações, você poderá encontrar as configurações da fonte na seção <a href="#-Configurações">Configurações</a>.
 
 ### Usando as Font Ligatures
 
