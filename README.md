@@ -12,12 +12,3 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
 - [Yarn](https://yarnpkg.com/)    
 - [VSCode](https://code.visualstudio.com/)    
 
-
-https://www.notion.so/Configura-es-do-ambiente-React-76f2963a042f45b9b9b567a2795945b8
-
-
-
-
-
-
-
