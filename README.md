@@ -2,6 +2,7 @@
 ## 🚀 Tecnologias
 
 - [React](https://pt-br.reactjs.org/)    
+- [TypeScript](https://www.typescriptlang.org/)    
 
 ## 💻 Preparando o Ambiente
 
