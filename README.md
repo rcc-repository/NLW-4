@@ -1,6 +1,8 @@
 
 ## 🚀 Tecnologias
 
+- [React](https://pt-br.reactjs.org/)    
+
 ## 💻 Preparando o Ambiente
 
 Sem mais delongas, vamos ao conteúdo principal desse guia: configuração do seu ambiente para o NLW. 
