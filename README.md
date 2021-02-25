@@ -45,7 +45,7 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
 ## 💻 Codando NextJs
 
   - NextJs é um nivel intermediario da aplicação React (front-end) com o back-end.
-  - Quando trabalhamos com React usamos o conceito de pagina SPA e quando trabalhamos com NextJs usamos o conceito de SSR (Server-side Rendering).
+  - Quando trabalhamos com React usamos o conceito de pagina SPA.
   - Quando trabalhamos com React usamos o conceito de pagina SPA SSR (Server-side Rendering) e SSG.
 
 
