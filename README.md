@@ -30,7 +30,7 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
   - TERMINAL (Com NPM) => npx create-react-app move.it --template=typescript
   - TERMINAL (Com Yarn) => yarn create react-app moveit --template=typescript 
 
-- Rodando a applicação React:
+- Rodando a aplicação React:
 
   - TERMINAL (Com NPM) => npm start
   - TERMINAL (Com Yarn) => yarn start
@@ -47,6 +47,16 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
   - NextJs é um nivel intermediario da aplicação React (front-end) com o back-end.
   - Quando trabalhamos com React usamos o conceito de pagina SPA.
   - Quando trabalhamos com React usamos o conceito de pagina SPA, SSR (Server-side Rendering) e SSG.
+
+- Criando um projeto NextJs:
+
+  - TERMINAL (Com NPM) => npx create-next-app move.it-next
+  - TERMINAL (Com NPM) => npm add typescript @types/react @types/react-dom @types/node -D
+
+- Rodando a aplicação NextJs:
+
+  - TERMINAL (Com NPM) => npm run dev
+
 
 
 
