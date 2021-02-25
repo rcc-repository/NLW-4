@@ -16,7 +16,7 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
 - [Yarn](https://yarnpkg.com/)    
 - [VSCode](https://code.visualstudio.com/)    
 
-## 💻 Codando / Dicas
+## 💻 Codando React
 
 - Verificar versões dos pacotes:
 
@@ -41,6 +41,11 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
   - [Google Fonts](https://fonts.google.com/)    
 
   - Após localizadas e adicionadas copiar o Link e add no projeto (Index.html / tag head)
+
+## 💻 Codando NextJs
+
+  - NextJs é um nivel intermediario da aplicação React (front-end) com o back-end.
+  - Quando trabalhamos com React usamos o conceito de pagina SPA e quando trabalhamos com NextJs usamos o conceito de SSR (Server-side Rendering)
 
 
 
