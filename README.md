@@ -35,5 +35,11 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
   - TERMINAL (Com NPM) => npm start
   - TERMINAL (Com Yarn) => yarn start
 
+- Configurando Fontes externas:
+
+  - [Google Fonts](https://fonts.google.com/)    
+
+
+
   
 
