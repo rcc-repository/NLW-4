@@ -26,7 +26,8 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
   -  TERMINAL=> yarn -v
 
 - Criando um projeto React:
-
+   
+  - TERMINAL (Com NPM) => npm i create-react-app -g
   - TERMINAL (Com NPM) => npx create-react-app move.it --template=typescript
   - TERMINAL (Com Yarn) => yarn create react-app moveit --template=typescript 
 
@@ -50,6 +51,7 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
 
 - Criando um projeto NextJs:
 
+  - TERMINAL (Com NPM) => npm i create-next-app -g
   - TERMINAL (Com NPM) => npx create-next-app move.it-next
   - TERMINAL (Com NPM) => npm add typescript @types/react @types/react-dom @types/node -D
 
