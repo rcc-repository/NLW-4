@@ -32,8 +32,8 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
 
 - Rodando a applicação React:
 
-  - TERMINAL (Com NPM) => npm star
-  - TERMINAL (Com Yarn) => yarn star
+  - TERMINAL (Com NPM) => npm start
+  - TERMINAL (Com Yarn) => yarn start
 
   
 
