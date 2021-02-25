@@ -18,7 +18,7 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
 
 ## 💻 Codando / Dicas
 
--- Verificar versões dos pacotes:
+- Verificar versões dos pacotes:
 
   -  TERMINAL=> choco -v
   -  TERMINAL=> node -v
