@@ -16,3 +16,13 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
 - [Yarn](https://yarnpkg.com/)    
 - [VSCode](https://code.visualstudio.com/)    
 
+## 💻 Codando / Dicas
+
+-- Verificar versões dos pacotes:
+
+  -  TERMINAL=> choco -v
+  -  TERMINAL=> node -v
+  -  TERMINAL=> npm -v
+  -  TERMINAL=> yarn -v
+  
+
