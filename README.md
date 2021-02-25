@@ -37,7 +37,11 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
 
 - Configurando Fontes externas:
 
+  - Fonts utilizadas: Inter (400, 500 e 600) e Rajdhani (600). Acessar page abaixo e buscar pelas fonts x tamanho:
   - [Google Fonts](https://fonts.google.com/)    
+
+  - Após localizadas e adicionadas copiar o Link e add no projeto (Index.html / <head>)
+
 
 
 
