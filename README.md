@@ -24,5 +24,10 @@ Teremos três etapas principais na seção <a href="README/README-NEW-INSTALL.md
   -  TERMINAL=> node -v
   -  TERMINAL=> npm -v
   -  TERMINAL=> yarn -v
+
+- Criando um projeto React:
+
+  - TERMINAL=> npx create-react-app move.it --template=typescript
+               yarn create react-app moveit --template=typescript 
   
 
