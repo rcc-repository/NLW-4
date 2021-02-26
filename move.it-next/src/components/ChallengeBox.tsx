@@ -7,7 +7,7 @@ import styles from '../styles/components/ChallengeBox.module.css'
 
 export function ChallengeBox () {
 
-    const { activeChallenge } = useContext(ChallangesContext);
+    const { activeChallenge, resetChallenge } = useContext(ChallangesContext);
 
     return (
             <div className={styles.challengeBoxContainer}>
@@ -25,6 +25,7 @@ export function ChallengeBox () {
                             <button 
                                 type="button"
                                 className={styles.challengeFailedfButton}
+                                onClick={resetChallenge}
                             >
                                 Falhei
                             </button>
