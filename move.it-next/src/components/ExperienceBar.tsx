@@ -1,25 +1,24 @@
+import { useChallenges } from '../hooks/useChallenges';
+import styles from '../styles/components/ExperienceBar.module.css';
 
-import { useContext } from 'react'
-import { ChallangesContext } from '../contexts/ChallengesContext'
+export function ExperienceBar() {
+  const { currentExperience, experienceToNextLevel } = useChallenges();
 
-import styles from '../styles/components/Experience.module.css'
+  const percentToNextLevel = Math.round(currentExperience * 100) / experienceToNextLevel;
 
-export function ExperienceBar () {
-    const { currentExperience, experienceToNextLevel } = useContext(ChallangesContext);
+  return (
+    <header className={styles.experienceBar}>
+      <span>0 xp</span>
+      <div>
+        <div style={{ width: `${percentToNextLevel}%` }}/>
 
-    const percentToNextLevel =  Math.round(currentExperience * 100) / experienceToNextLevel;
-
-    return (
-        <header className={styles.experienceBar}>
-            <span>0 xp</span>
-            <div>
-                <div style={{ width: `${percentToNextLevel}%` }} />
-
-                <span className={styles.currentExperience} style={{ left: `${percentToNextLevel}%` }}>
-                    { currentExperience } xp
-                </span>
-            </div>
-            <span>{ experienceToNextLevel } xp</span>
-        </header>
-    )
+        { currentExperience > 0 && (
+          <span className={styles.currentExperience} style={{ left: `${percentToNextLevel}%` }}>
+            {currentExperience} xp
+          </span>
+        ) }
+      </div>
+      <span>{experienceToNextLevel} xp</span>
+    </header>
+  );
 }

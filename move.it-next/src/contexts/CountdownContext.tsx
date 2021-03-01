@@ -1,69 +1,74 @@
+import { createContext, ReactNode, useEffect, useState } from "react";
+import { useChallenges } from "../hooks/useChallenges";
 
-import { createContext, ReactNode, useContext, useEffect, useState } from "react";
-import { ChallangesContext } from "./ChallengesContext";
-
-interface CountdownContextData{
-    minutes: number;
-    seconds: number;
-    hasFinished: boolean;
-    isActive: boolean;
-    startCountdown: () => void;
-    resetCountdown: () => void;
+interface CountdownProviderProps {
+  children: ReactNode;
 }
 
-interface CountdownProviderProps{
-    children: ReactNode;
+interface CountdownContextData {
+  isActive: boolean;
+  hasFinished: boolean;
+  minutes: number;
+  seconds: number;
+  resetCountdown: () => void;
+  startCountdown: () => void;
 }
 
 let countdownTimeout: NodeJS.Timeout;
 
-export const CountdownContext = createContext({} as CountdownContextData);
+export const CountdownContext = createContext({} as CountdownContextData)
 
-export function CountdownProvider( {children}: CountdownProviderProps ){
-    
-    const { startNewChallenge } = useContext(ChallangesContext)
-    
-    const [time, setTime] = useState(0.1 * 60);
-    const [isActive, setIsActive] = useState(false);
-    const [hasFinished, setHasFinished] = useState(false);
+export function CountdownProvider({ children }: CountdownProviderProps) {
+  const { startNewChallenge } = useChallenges();
 
-    const minutes = Math.floor(time/60);
-    const seconds = time % 60;    
+  const [time, setTime] = useState(0.1 * 60);
+  const [isActive, setIsActive] = useState(false);
+  const [hasFinished, setHasFinished] = useState(false);
 
-    function startCountdown() {
-        setIsActive(true);
+  useEffect(() => {
+    window.onbeforeunload = () => {
+      if (isActive) {
+        return 'Você perderá o progresso do countdown até aqui, tem certeza?'
+      }
     };
+  }, [isActive])
 
-    function resetCountdown() {
-        clearTimeout(countdownTimeout);        
-        setIsActive(false);
-        setHasFinished(false);
-        setTime(0.1 * 60);
+  useEffect(() => {
+    if (isActive && time > 0) {
+      countdownTimeout = setTimeout(() => {
+         setTime(time - 1);
+       }, 1000);
+    } else if (isActive && time === 0) {
+      startNewChallenge();
+      setHasFinished(true);
+      setIsActive(false);
     }
+  }, [isActive, time]);
 
-    useEffect(() => {
-        if (isActive && time > 0){
-            countdownTimeout = setTimeout(() => {
-                setTime(time - 1);
-            }, 1000)
-        }
-        else if (isActive && time === 0) {
-            setHasFinished(true);
-            setIsActive(false);
-            startNewChallenge();
-        }
-    }, [isActive, time]);    
-        
-    return(
-        <CountdownContext.Provider value = {{
-            minutes,
-            seconds,
-            hasFinished,
-            isActive,
-            startCountdown,
-            resetCountdown
-        }}>
-            {children}
-        </CountdownContext.Provider>
-    )
+  function startCountdown() {
+    setIsActive(true);
+  }
+
+  function resetCountdown() {
+    clearTimeout(countdownTimeout);
+    setIsActive(false);
+    setTime(0.1 * 60);
+    setHasFinished(false);
+  }
+
+  const minutes = Math.floor(time / 60);
+  const seconds = time % 60;
+
+  return (
+    <CountdownContext.Provider value={{
+      isActive,
+      resetCountdown,
+      hasFinished,
+      startCountdown,
+      minutes,
+      seconds,
+    }}>
+      {children}
+    </CountdownContext.Provider>
+  );
 }
