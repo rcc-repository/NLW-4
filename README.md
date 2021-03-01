@@ -1,8 +1,20 @@
 
+<h1 align="center">
+  <img alt="move.it" title="move.it" src=".github/logo.png" />
+</h1>
+
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt="NLW 04" />
+</p>
+
+<p align="center">
+  <img alt="Happy" src=".github/moveit.png" width="100%">
+</p>
+
 ## 🚀 Tecnologias
 
-- [React](https://pt-br.reactjs.org/)    
-- [NextJs](https://nextjs.org/)    
+- [React](https://reactjs.org)    
+- [Next.js](https://nextjs.org/)    
 - [TypeScript](https://www.typescriptlang.org/)    
 
 ## 💻 Preparando o Ambiente
