@@ -25,6 +25,10 @@
 - [Next.js](https://nextjs.org/)    
 - [TypeScript](https://www.typescriptlang.org/)    
 
+## 💻 Projeto
+
+https://github.com/rocketseat-education/nlw-04-reactjs
+
 ## 💻 Preparando o Ambiente
 
 Sem mais delongas, vamos ao conteúdo principal desse guia: configuração do seu ambiente para o NLW. 
