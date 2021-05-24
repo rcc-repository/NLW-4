@@ -27,7 +27,8 @@
 
 ## 💻 Projeto
 
-https://github.com/rocketseat-education/nlw-04-reactjs
+- [rocketseat-education](https://github.com/rocketseat-education)
+- [rocketseat-nlw-04-reactjs](https://github.com/rocketseat-education/nlw-04-reactjs)
 
 ## 💻 Preparando o Ambiente
 
